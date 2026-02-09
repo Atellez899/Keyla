@@ -12,6 +12,7 @@
     <path d="M132 90C128 72 140 54 156 54C170 54 180 70 176 90C166 84 142 84 132 90Z" />
     <path d="M70 96C68 82 80 64 96 64C110 64 120 82 118 96C108 90 82 90 70 96Z" />
   </g>
+  <g stroke="#178f8a" stroke-width="2" stroke-linecap="round" opacity="0.7">
   <g stroke="#3aa7a3" stroke-width="2" stroke-linecap="round" opacity="0.7">
     <path d="M90 110C86 116 82 124 80 132" />
     <path d="M148 110C150 118 154 126 160 134" />
