@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Un pequeño detalle</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page" data-theme="light">
+      <header class="hero" aria-labelledby="titulo">
+        <img
+          class="ornament ornament--top"
+          src="assets/tulips.svg"
+          alt="Ramo de tulipanes en línea"
+          width="180"
+          height="180"
+          loading="lazy"
+        />
+        <div class="hero__text">
+          <h1 id="titulo">Un pequeño detalle</h1>
+          <p class="subtitle">Con aprecio, respeto y gratitud</p>
+        </div>
+      </header>
+
+      <main class="card" role="main">
+        <section class="intro" aria-label="Mensaje de apertura">
+          <p>
+            Este espacio es solo un detalle.<br />
+            No pretende decir más de lo que es,<br />
+            pero sí expresar aprecio y honra.<br />
+            Que Dios te siga fortaleciendo y guiando.
+          </p>
+        </section>
+
+        <div class="divider" aria-hidden="true"></div>
+
+        <section class="section" aria-labelledby="cantares">
+          <h2 id="cantares">Cantares</h2>
+          <ul class="verses">
+            <li class="verse">
+              <span class="verse__ref"><strong>Cantares 4:7</strong></span>
+              — “Toda tú eres hermosa, amiga mía, y en ti no hay mancha.”
+            </li>
+            <li class="verse">
+              <span class="verse__ref"><strong>Cantares 1:15</strong></span>
+              — “He aquí que tú eres hermosa, amiga mía; he aquí que tú eres bella.”
+            </li>
+            <li class="verse">
+              <span class="verse__ref"><strong>Cantares 2:10</strong></span>
+              — “Mi amado habló, y me dijo: Levántate, oh amiga mía, hermosa mía, y ven.”
+            </li>
+            <li class="verse">
+              <span class="verse__ref"><strong>Cantares 6:4a</strong></span>
+              — “Hermosa eres tú, amiga mía…”
+            </li>
+          </ul>
+        </section>
+
+        <div class="divider" aria-hidden="true"></div>
+
+        <section class="section" aria-labelledby="otros-pasajes">
+          <h2 id="otros-pasajes">Otros pasajes</h2>
+          <ul class="verses">
+            <li class="verse">
+              <span class="verse__ref"><strong>Proverbios 31:30</strong></span>
+              — “Engañosa es la gracia, y vana la hermosura; la mujer que teme a Jehová, esa será alabada.”
+            </li>
+            <li class="verse">
+              <span class="verse__ref"><strong>Salmos 45:11</strong></span>
+              — “Y deseará el rey tu hermosura…”
+            </li>
+            <li class="verse">
+              <span class="verse__ref"><strong>Romanos 12:10</strong></span>
+              — “Amaos los unos a los otros con amor fraternal, en cuanto a honra, prefiriéndoos los unos a los otros.”
+            </li>
+            <li class="verse">
+              <span class="verse__ref"><strong>Proverbios 17:17a</strong></span>
+              — “En todo tiempo ama el amigo…”
+            </li>
+          </ul>
+        </section>
+
+        <div class="actions" aria-label="Acciones de la tarjeta">
+          <button class="button" type="button" id="copy-verses">
+            Copiar versículos
+          </button>
+          <button class="button button--ghost" type="button" id="toggle-theme" aria-pressed="false">
+            Modo noche
+          </button>
+          <span class="status" id="copy-status" role="status" aria-live="polite"></span>
+        </div>
+
+        <div class="divider" aria-hidden="true"></div>
+
+        <footer class="closing" aria-label="Firma">
+          <p>
+            Con respeto y aprecio,<br />
+            — A.
+          </p>
+        </footer>
+      </main>
+
+      <img
+        class="ornament ornament--bottom"
+        src="assets/tulips.svg"
+        alt="Ramo de tulipanes en línea"
+        width="160"
+        height="160"
+        loading="lazy"
+      />
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
