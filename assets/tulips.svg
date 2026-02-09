@@ -1,5 +1,5 @@
 <svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ramo de tulipanes">
-  <g stroke="#b18684" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
+  <g stroke="#7a63b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
     <path d="M110 175C112 148 106 120 92 95" />
     <path d="M120 175C120 147 126 121 142 98" />
     <path d="M101 130C90 126 78 126 68 130" />
@@ -7,12 +7,12 @@
     <path d="M110 175C95 180 80 186 68 194" />
     <path d="M120 175C138 182 158 190 176 200" />
   </g>
-  <g fill="#e2c6c1" opacity="0.7">
+  <g fill="#d7c9f2" opacity="0.7">
     <path d="M88 86C86 70 96 54 110 54C123 54 133 70 131 86C122 80 98 80 88 86Z" />
     <path d="M132 90C128 72 140 54 156 54C170 54 180 70 176 90C166 84 142 84 132 90Z" />
     <path d="M70 96C68 82 80 64 96 64C110 64 120 82 118 96C108 90 82 90 70 96Z" />
   </g>
-  <g stroke="#8aa09b" stroke-width="2" stroke-linecap="round" opacity="0.7">
+  <g stroke="#3aa7a3" stroke-width="2" stroke-linecap="round" opacity="0.7">
     <path d="M90 110C86 116 82 124 80 132" />
     <path d="M148 110C150 118 154 126 160 134" />
     <path d="M114 108C116 120 118 132 118 146" />
